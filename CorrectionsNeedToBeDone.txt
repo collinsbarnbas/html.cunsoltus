@@ -1,0 +1,2 @@
+1.Index page at {HOW IT WORKS section }(topArrow missing) :- this top arrow would take the page back to navBar section.
+2.Payment12.html page Please check for margin in mobile screen 

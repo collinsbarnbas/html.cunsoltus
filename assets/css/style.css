@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.Slider-Image{ 
+    height: 70vh;
+}
+
+
+/*---------------- carosel background image--------------------------- */
+
+.bg-img-1{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    background-image: url(../Img/Frame2608517.jpg) !important;
+}
+.bg-img-2{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    background-image: url(../Img/Frame2608518.jpg) !important;
+}
+.bg-img-3{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    background-image: url(../Img/Frame2608519.jpg) !important;
+}
+
+.carousel-image{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.navText{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.youTubeIcon{
+    position: absolute;
+    right: 145px;
+    top: 400px;
+}
+.YouTub{
+    height: 20px;
+}
+.navTextContainer{
+    position: absolute;
+    top: 220px;
+    color: white;
+    margin-left: 100px;
+    font-family:'Poppins', sans-serif;
+}
+.navbarContactUsButton{
+    color: white;
+    border: 2px solid #FFB400;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    padding: 6px 35px;
+    border-radius: 23px;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+}
+.navBarPositionig{
+    width: 87%;
+    position: absolute;
+    border-radius: 30px;
+    top: 26px;
+    left: 7%;
+}
+.textColor{
+    color:#01A1FF;
+    font-family: 'Poppins';
+    transition: 0.2s;
+}
+.textColor:hover{
+    color: #01A1FF;
+    font-weight: 600;   
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    
+    color: #01A1FF!important;
+    font-weight: 600;
+}
+
+
+.Logo{
+    height: 35px;
+}
+.collapse{
+    justify-content: space-around;
+}
+
+.wyChooseUs{
+    font-family: 'Poppins';
+    background: black;
+    color: white;
+}
+.chooseUsText{
+padding: 20px 0;
+font-weight: 800;
+color: #FFB400;
+}
+.carouselImages{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(Img/Frame2608517.jpg);
+
+}
+.AudiCarImage{
+    background-image: url(../Img/carImg.jpg);
+    background-size: 100% 100%;
+    height:480px
+}
+.chooseUsSmallimg{
+    background-color: #121111;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+/* .partsImages{
+    justify-content: space-around;
+    align-items: end;
+} */
+.screwDriverImg{
+    position: relative;
+}
+.screwDr{
+    position: absolute;
+    top: 51px;
+    left: 183px;
+}
+.smImg{
+    width: 120px;
+}
+.smImgLub{
+    height: 120px;
+}
+.howItWorks{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.howItWorksBgImg{
+   background-image: url(../Img/gearHome.jpg);
+   background-size: 100% 100%;
+   height:100%;
+   background-position: initial;
+}
+.optionsBackground{
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(217, 217, 217, 0.24);
+    height: 250px;
+    width: 238px;
+    
+}
+.footerItems{
+    justify-content: space-between;
+    text-align: center;
+    align-items: baseline;
+    color: #01A1FF;
+}
+.options{
+    font-size: 77px;
+    font-weight: 600;
+    
+}
+.optionText{
+    font-size: 30px;
+    font-weight: 600;
+}
+.footerLogo{
+    height: 110px;
+}
+
+
+/*registration form css */
+
+.regstBg-img{
+    background-image: url(../Img/registerImgjpg.jpg);
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    }
+.registNav{
+    width: 86%;
+    margin: auto;
+    margin-top: 26px;
+    border-radius: 30px;
+}    
+
+.registForm{
+    color: white;
+    font-size: 18px;
+    margin: 65px 99px;
+}
+.registFormVideo-Voice{
+    color: white;
+    font-size: 18px;
+    margin: 65px 99px;
+}
+.nameInpt{
+    width: 100%;
+    background: rgba(217, 217, 217, 0);
+    border: 3px solid #FFFFFF;
+    font-size: 18px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    color: white ;
+}
+.crInput{
+    background: rgba(217, 217, 217, 0);
+    border: 3px solid #FFFFFF;
+    font-size: 16px;
+    border-radius: 30px;
+    padding-left: 20px;
+    color: white ;
+}
+.row p{
+    margin-bottom: 3px;
+}
+.row input{
+    margin-bottom: 30px;
+}
+/* .voiceInpt{
+
+} */
+
+.radioBtnFrom{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+.formContainer{
+    justify-content: space-between;
+    margin: 30px;
+    padding: 40px;
+    backdrop-filter: blur(15px);
+    background: rgba(217, 217, 217, 0.24);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.formSubmitBtn{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    border: 2px solid #FFB400;
+    background: transparent;
+    border-radius: 30px;
+    padding: 2px 30px;
+
+}
+
+.registrationFromBox{
+    height:100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 40px;
+    
+}
+
+.fontUPID{
+    font-size: 14px;
+}
+
+
+
+.footerBackground{
+   background: white;  
+}
+
+
+/* contact us page css */
+.contactUsImg{
+    position: relative;
+    top: 0;
+    width: 1520px;
+}
+.registNavCon{
+    top: 26px;
+    position: absolute;
+    width: 87%;
+    left: 94.100px;
+    border-radius: 5px;
+}
+.contactUsSectn{
+    position: absolute;
+    top: 300px;
+    left: 152px;
+    width: 300px;
+    color: white;
+}
+.contText{
+    color: rgb(197, 131, 31);
+}
+.contactUsbtn{
+    width: 80%;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+
+
+/* ------------------------voice call page css------------------------------  */
+
+.voicecallBg-img{
+    background-image: url(../Img/voiceCallImg.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    
+}
+
+.slotsBg{
+    background-color: white;
+    border-radius: 30px;
+    width: 80%;
+    height: 523px;
+    margin: auto;
+
+}
+.slotsBg hr{
+    color: black;
+    font-weight: 500; 
+}
+.slotsBg h4{
+    color: black;
+}
+
+.slots{
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.slotbookBtn{
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    padding: 3px 30px;
+    border:  2px solid white;
+    border-radius:30px ;
+    border: 2px solid #FFB400;
+}
+.slotbookBtn:hover{
+    background-color:#FFB400;
+    color: white;
+}
+.reponsiveCards{
+    flex-wrap: wrap;
+}
+/* calender css*/
+/* ----------------------------------------------------------- */
+.wrapper {
+    width:  80%;
+    margin: auto;
+    background: #fff;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  }
+  .dateSelectText{
+    color: black;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .calenderHorizontalLine{
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .wrapper header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px 30px 10px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px 10px 0 0;
+    color: black;
+  }
+  header .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .icons span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    font-size: 1.9rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 50%;
+  }
+  .icons span:last-child {
+    margin-right: -10px;
+  }
+  header .icons span:hover {
+    background: #f2f2f2;
+  }
+  header .current-date {
+    font-size: 1.45rem;
+    font-weight: 500;
+  }
+  .calendar {
+    padding: 20px;
+  }
+  .calendar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+  .calendar .days {
+    margin-bottom: 20px;
+  }
+  .calendar li {
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+  }
+  .calendar .weeks li {
+    font-weight: 500;
+    cursor: default;
+  }
+  .calendar .days li {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+  }
+  .days li.inactive {
+    color: #aaa;
+  }
+  .days li.active {
+    color: #fff;
+  }
+  .days li::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .days li.active::before {
+    background: #FFB400;;
+  }
+  .days li:not(.active):hover::before {
+    background: #f2f2f2;
+  }
+  
+/* ----------------------------------------------------------- */
+
+
+.alignmentVoice{
+    align-items: center;
+}
+.voiceCallNumber{
+    width: 35%;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.dateInput{
+    width: 50%;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.slotsBg input{
+    width: 20px;
+    height: 20px;
+}
+.slotsBg .d-flex i{
+    font-size: 40px;
+    color: #FFB400;
+
+}
+.slots input{
+    margin-bottom: 0;
+}
+
+
+/* -----------------payment method page css--------------------------------- */
+
+.paymentContainer{
+    margin: 30px;
+    backdrop-filter: blur(15px);
+    background-color: white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.paymentContainer h2{
+    font-weight: 700;
+}
+.paymentContainer h3{
+    font-weight: 600;
+}
+.paymentContainer .d-flex div{
+    margin-right: 20px;
+}
+.paymentContainer .d-flex input{
+    margin-right: 5px;
+}
+.Payment-btn{
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 1.8rem;
+    border: 3px solid #FFB400 ;
+
+}
+.Payment-btn1{
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 1.8rem;
+    border: 3px solid #FFB400 ;
+}
+.PaymentVerify-btn{
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 3px 20px;
+    font-size: 1.8rem;
+    border: 3px solid #FFB400 ;
+}
+.paymentRadioInpt span{
+    color:black;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+/* .paymentRadioInpt span::after{
+    color: #6739B6;
+} */
+
+.paymentRadioInpt input[type='radio']:after{
+        width: 18px;
+        height: 18px;
+        border-radius: 15px;
+        top: -4px;
+        position: relative;
+        background-color: #666866;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+.paymentRadioInpt input[type='radio']:checked:after{
+        background-color: #FFB400;
+        width: 18px;
+        height: 18px;
+        border-radius: 15px;
+        top: -4px;
+        position: relative;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+.paymentDetailsInpt{
+    border: 2px solid black;
+
+    border-radius: 16px;
+}
+.hiddenpaymentVefification{
+    display: none !important;
+}
+.bgColor{
+    background-color: #cdcbcb85;
+    display:block !important;
+}
+.orderSummary{
+    margin: 30px;
+    padding: 40px;
+    backdrop-filter: blur(15px);
+    background: rgba(217, 217, 217, 0.24);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.orderSummary h3{
+    color: white;
+}
+.orderSummaryBg{
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1.4rem;
+}
+.totalCal{
+    color: rgb(3, 23, 203);
+    font-weight: 600;
+}
+.paymentOrder{
+    border-radius: 30px;
+    padding: 1rem 2.4rem;
+}
+.modal-header {
+    margin-bottom: 2rem;
+    border-bottom: none;
+}
+.modal-body{
+    border-bottom: none;
+}
+.voiceCallProceedToPayIcon{
+    position: absolute;
+    bottom: 180px;
+    height: 136px;
+}
+.modal-footer{
+    border-top: none;
+    margin-bottom: 1rem;
+}
+.modal-content{
+    border-radius: 12px;
+}
+.proceedToPayBtnNxtPg{
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 33px;
+    text-align: center;
+}
+.madalBgCol{
+    background: rgba(255, 255, 255, 0.4);
+}
+.paymentSuccessIcon{
+    position: absolute;
+    bottom: 173px;
+    height: 115px;
+}
+.modalTextBox{
+    font-size: 1.2rem;
+}
+/* ------------------css code applied for every similar class------------------------------- */
+.btn:hover{
+    color: white;
+}

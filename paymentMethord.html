@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consult Us</title>
+  <link rel="icon" href="assets/img/Group 2608538 1.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!--Code starts here -->
+  <!--navbar -->
+  <section class="voicecallBg-img">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary registNav">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img class="Logo" src="assets/Img/Group 2608538 1.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <div class="me-5 pe-5 navBarRegisItems">
+              <a class="nav-link textColor me-5 pe-5" aria-current="page" href="/">Home</a>
+            </div>
+            <div class="me-5 pe-5 navBarRegisItems">
+              <a class="nav-link textColor me-5 pe-5" href="contactus.html">Contact Us</a>
+            </div>
+            <div class="me-5 pe-5 navBarRegisItems">
+              <a class="nav-link textColor me-5 pe-5" href="#">About Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="row paymentContainer">
+        <div class="col-lg-8 col-md-10 col-sm-12 col-12 p-3">
+          <h2>Payment Method-&#8377; 2000</h2>
+          <p>please select a payment method</p>
+          <div>
+            <form action="" class="mt-5">
+              <h3>Wallet payment</h3>
+              <div class="d-flex flex-wrap mb-4 paymentRadioInpt">
+                <div>
+                  <input checked value="active" name="payment__wall" type="radio"><span>PhonePe</span>
+                </div>
+                <div>
+                  <input name="payment__wall" type="radio"><span>Google Pay</span>
+                </div>
+                <div>
+                  <input name="payment__wall" type="radio"><span>BHIM</span>
+                </div>
+                <div>
+                  <input name="payment__wall" type="radio"><span>PayPal</span>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap">
+                <p class="me-3">You are choosing to pay though PhonePe</p>
+                <img class="phonePeIcon" style="height:30px" src="assets/Img/phonepe-logo-icon.png" alt="">
+              </div>
+              <div class="hiddenpaymentVefification">
+                <h3 class="mb-5">Wallet Payment</h3>
+                <p class="me-2 fontUPID">please enter your UPID</p>
+                <div class="d-flex align-items-baseline">
+                     <input class="paymentDetailsInpt" type="text">
+                     <button class="PaymentVerify-btn" type="submit">verify</button>
+                </div>
+              </div>
+              <h3>Card Payment</h3>
+              <div class="d-flex flex-wrap mb-4 paymentRadioInpt">
+                <div>
+                  <input name="payment__Card" type="radio"><span>Debit Card</span>
+                </div>
+                <div>
+                  <input name="payment__Card" type="radio"><span>Credit Card</span>
+                </div>
+              </div>
+              <h3>Net Banking /Banking Transfer</h3>
+              <div class="d-flex flex-wrap mb-4 paymentRadioInpt">
+                <div>
+                  <input name="payment__Net" type="radio"><span>Net Banking</span>
+                </div>
+                <div>
+                  <input name="payment__Net" type="radio"><span>Banking Transfer</span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end paymentSelectionProceedBtn">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  class="Payment-btn">Proceed</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-2 col-sm-12 col-12 p-3 bgColor">
+          <h3 class="mb-5">Wallet Payment</h3>
+          <div class="d-flex flex-wrap justify-content-between">
+            <p class="me-2 fontUPID">please enter your UPID</p>
+            <input class="paymentDetailsInpt" type="text">
+          </div>
+          <div class="d-flex justify-content-end">
+            <button class="PaymentVerify-btn" type="submit">verify</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </section>
+  <!------------------------------modal Section ------------------------------------------------------------>
+
+  <div class="modal  madalBgCol" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center">
+          <img class="paymentSuccessIcon" src="assets/Img/icons/Vector.png" alt="">
+          <a href="/" type="button" class="btn-close" aria-label="Close"></a>
+        </div>
+        <div class="modal-body text-center">
+          <p class="modalTextBox">Your slot has been booked, our costumer car will contact you within an hour.The
+            Invoice has been sent to you on your mail.</p>
+        </div>
+        <div class="modal-footer justify-content-center">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer Section-->
+
+  <section >
+    <div class="container mt-5 mb-4 mobileFooter">
+       <div class="row footerItems">
+           <div class="col-lg-2 col-md-2 col-sm-2 col-12 footerLogoCon">
+              <div class="mb-4 footerLogoCon">
+               <img class="footerLogo" src="assets/Img/Group 2608538 2.png" alt="">
+              </div>
+              <div class="mt-4 socilConnect" >
+               <i class="pe-2 fa fa-facebook" aria-hidden="true"></i>
+               <i class="pe-2 fa fa-twitter" aria-hidden="true"></i>
+               <i class="pe-2 fa fa-instagram" aria-hidden="true"></i>
+               <i class="pe-2 fa fa-linkedin" aria-hidden="true"></i>
+               <i class="pe-2 fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+             </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-12 footerBout">
+             <h5>About Us</h5>
+             <div class="d-flex align-items-baseline mt-4 aboutEmail">
+             <i class="pe-2 fa fa-envelope-o" aria-hidden="true"></i>
+             <p>contact@129@gmail.com</p>
+             </div>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-12 boutOurClient">
+             <h5>Our Client</h5>
+             <div class="d-flex align-items-baseline justify-content-center mt-4">
+               <i class="pe-2 fa fa-phone" aria-hidden="true"></i>
+               <p>1234567890</p>
+             </div>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+             <h5>FAQ's</h5>
+             <p>Address 110 Lorem ipsum dolor sit amet Lorem </p>
+           </div>
+       </div>
+    </div>
+ </section>
+  <script src="assets/JavaScript/voice.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
